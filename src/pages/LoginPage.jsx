@@ -39,7 +39,7 @@ const LoginPage = () => {
           </div>
           <small className='text-primary cursor-pointer flex justify-end w-full'>Lupa password?</small>
           <div className='flex justify-between mt-10 px-2'>
-            <button className='btn btn-outline border-2 border-primary rounded px-16 text-primary'>Masuk</button>
+            <button href="src/pages/HomePage.jsx" className='btn btn-outline border-2 border-primary rounded px-16 text-primary'>Masuk</button>
             <button className='btn bg-primary hover:bg-primary/80 rounded px-16 text-white'>Daftar</button>
           </div>
         </form>
