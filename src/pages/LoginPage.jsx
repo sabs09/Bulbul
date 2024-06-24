@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import AuthLayout from '../components/layouts/AuthLayout';
 import { IoEyeOutline, IoEyeOffOutline } from "react-icons/io5";
 
 const LoginPage = () => {
