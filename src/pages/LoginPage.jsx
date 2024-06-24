@@ -46,8 +46,8 @@ const LoginPage = () => {
           </div>
           <small className='text-primary cursor-pointer flex justify-end w-full'>Lupa password?</small>
           <div className='flex justify-between mt-10 px-2'>
-            <button type="submit" className='bg-[#FF8D75] rounded px-16 py-1 text-white'>Masuk</button>
-            <button type="button" className='btn bg-primary hover:bg-primary/80 rounded px-16 text-white'>Daftar</button>
+            <a href="/" className='btn btn-outline border-2 border-primary rounded px-16 text-primary'>Masuk</a>
+            <a href="/register" className='btn bg-primary hover:bg-primary/80 rounded px-16 text-white'>Daftar</a>
           </div>
         </form>
       </div>
